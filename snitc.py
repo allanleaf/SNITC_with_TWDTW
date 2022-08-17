@@ -605,6 +605,9 @@ def write_pandas(segmentation, transform, crs):
 
     return gdf
 
+### Change only from here down
+
+
 # PATH OF IMAGE STACK IN TIF FORMAT
 dataset = xarray.open_rasterio("/content/drive/MyDrive/IC-2021-2022/Stack_NDVI_tif/stack_NDVI_separate_2019_20.tif")
 
